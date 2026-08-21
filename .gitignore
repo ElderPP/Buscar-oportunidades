@@ -1,0 +1,4 @@
+relatorios/*.md
+logs/*.log
+!relatorios/.gitkeep
+!logs/.gitkeep
