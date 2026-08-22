@@ -86,7 +86,9 @@ Depois, uma seção por trilha que teve resultado, ordenada pela nota:
 - **Próximo passo:** ação concreta e tempo que leva
 ```
 
-Feche com: `Fontes consultadas: X. Novas: Y. Descartadas por nota <3: Z.`
+**Nunca liste as descartadas.** Nada de seção "Descartado", nada de enumerar prazo vencido, requisito não atendido ou vaga fora da cota — isso é ruído. Some tudo isso num número só, no fechamento. A única exceção que continua listada é o rodapé **Não verificado**, porque ainda tem prazo aberto e ação possível.
+
+Feche com: `Fontes consultadas: X. Novas: Y. Descartadas (prazo vencido, nota <3, ou inelegível): Z.`
 
 ## Depois
 
