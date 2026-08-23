@@ -53,22 +53,23 @@ timeout 45m claude -p "$PROMPT" \
 STATUS=$?
 
 if [ $STATUS -ne 0 ]; then
-  echo "Falha na execução (código $STATUS). Veja $LOG"
+  echo "Falha na execução (código $STATUS). Veja $LOG" | tee -a "$LOG"
   exit $STATUS
 fi
 
 DESTINATARIO="elderpadre@hotmail.com"
 
 if [ -f "$RELATORIO" ]; then
-  echo "Pronto: $RELATORIO"
+  echo "Pronto: $RELATORIO" | tee -a "$LOG"
   {
     echo "To: ${DESTINATARIO}"
     echo "Subject: Radar de oportunidades — ${HOJE}"
     echo "Content-Type: text/plain; charset=UTF-8"
     echo
     cat "$RELATORIO"
-  } | msmtp "$DESTINATARIO" && echo "E-mail enviado para ${DESTINATARIO}." \
-    || echo "Relatório pronto, mas falhou o envio por e-mail. Veja ~/.msmtp.log"
+  } | msmtp "$DESTINATARIO" \
+    && echo "E-mail enviado para ${DESTINATARIO}." | tee -a "$LOG" \
+    || echo "Relatório pronto, mas falhou o envio por e-mail. Veja ~/.msmtp.log" | tee -a "$LOG"
 else
-  echo "Rodou sem erro mas não gerou relatório. Veja $LOG"
+  echo "Rodou sem erro mas não gerou relatório. Veja $LOG" | tee -a "$LOG"
 fi
