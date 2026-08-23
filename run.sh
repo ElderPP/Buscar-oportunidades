@@ -57,8 +57,18 @@ if [ $STATUS -ne 0 ]; then
   exit $STATUS
 fi
 
+DESTINATARIO="elderpadre@hotmail.com"
+
 if [ -f "$RELATORIO" ]; then
   echo "Pronto: $RELATORIO"
+  {
+    echo "To: ${DESTINATARIO}"
+    echo "Subject: Radar de oportunidades — ${HOJE}"
+    echo "Content-Type: text/plain; charset=UTF-8"
+    echo
+    cat "$RELATORIO"
+  } | msmtp "$DESTINATARIO" && echo "E-mail enviado para ${DESTINATARIO}." \
+    || echo "Relatório pronto, mas falhou o envio por e-mail. Veja ~/.msmtp.log"
 else
   echo "Rodou sem erro mas não gerou relatório. Veja $LOG"
 fi
