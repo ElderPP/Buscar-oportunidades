@@ -142,9 +142,11 @@ Diferente da trilha 3 (contratação **pública** como PJ) e da trilha 5 (empreg
 
 ## Cadência
 
-- Concursos: diária
-- Sistema S: diária
-- Contratação pública: diária (prazos curtos)
-- Emprego privado: diária
-- PJ/consultoria privada: diária (fontes informais, baixo volume — ver `fontes.md`)
-- Bolsas: diária
+O radar roda segunda, quarta e sexta.
+
+- Concursos: segunda, quarta e sexta
+- Sistema S: segunda, quarta e sexta
+- Contratação pública: segunda, quarta e sexta
+- Bolsas: segunda, quarta e sexta
+- Emprego privado: só segunda (rendeu pouco: anúncios de agregador sem prazo)
+- PJ/consultoria privada: só segunda (fontes informais, baixo volume — ver `fontes.md`)
