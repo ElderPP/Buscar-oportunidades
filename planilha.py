@@ -13,6 +13,7 @@ from openpyxl.worksheet.datavalidation import DataValidation
 
 BASE = pathlib.Path(__file__).parent
 HOJE = dt.date.today()
+DIAS = ["seg", "ter", "qua", "qui", "sex", "sáb", "dom"]
 STATUS = ["radar", "interesse", "inscrito", "proposta enviada", "em andamento",
           "aprovado", "reprovado", "perdi prazo", "descartei"]
 
@@ -24,7 +25,7 @@ COLUNAS = [
     ("Oportunidade", "titulo", 40),
     ("Órgão / empresa", "orgao", 22),
     ("Local", "local", 18),
-    ("Prazo", "prazo", 11),
+    ("Prazo", "prazo", 17),
     ("O que vence", "o_que_vence", 24),
     ("Dias restantes", None, 9),
     ("Valor / salário", "valor", 26),
@@ -76,10 +77,13 @@ ws.row_dimensions[1].height = 32
 
 for r, linha in enumerate(linhas, 2):
     for c, (titulo, campo, _) in enumerate(COLUNAS, 1):
-        if campo is None:  # Dias restantes
-            valor = f'=IF(G{r}="","",G{r}-TODAY())'
+        if campo is None:  # Dias restantes, a partir da data do prazo (não do texto da coluna G)
+            p = data(linha["prazo"])
+            valor = f"=DATE({p.year},{p.month},{p.day})-TODAY()" if p else ""
         elif campo in ("encontrada_em", "prazo"):
-            valor = data(linha[campo])
+            # Texto, para qualquer app mostrar a data igual (alguns trocam dia/mês ou exibem número).
+            d = data(linha[campo])
+            valor = f"{d:%d/%m/%Y} ({DIAS[d.weekday()]})" if d and campo == "prazo" else (f"{d:%d/%m/%Y}" if d else "sem data")
         elif campo == "nota":
             valor = int(linha[campo]) if linha[campo] else "–"
         elif campo == "trilha":
@@ -90,8 +94,6 @@ for r, linha in enumerate(linhas, 2):
         cel.font = Font(name=FONTE, size=10)
         cel.alignment = Alignment(wrap_text=True, vertical="top")
         cel.border = BORDA
-        if campo in ("encontrada_em", "prazo"):
-            cel.number_format = "DD/MM/YYYY"
         if campo is None:
             cel.number_format = '0;"vencido";"hoje"'
             cel.alignment = Alignment(horizontal="center", vertical="top")
@@ -113,8 +115,10 @@ ws.conditional_formatting.add(faixa_dias, FormulaRule(
     font=Font(bold=True, color="9C0006")))
 ws.conditional_formatting.add(faixa_dias, FormulaRule(
     formula=['AND(ISNUMBER(I2),I2>3,I2<=7)'], fill=PatternFill("solid", start_color="FFE699")))
-ws.conditional_formatting.add(f"A2:H{ultima}", FormulaRule(
-    formula=[f'$A2=DATE({HOJE.year},{HOJE.month},{HOJE.day})'], font=Font(bold=True)))
+for r, linha in enumerate(linhas, 2):  # novidades do dia em negrito
+    if data(linha["encontrada_em"]) == HOJE:
+        for c in range(1, 9):
+            ws.cell(row=r, column=c).font = Font(name=FONTE, size=10, bold=True)
 
 dv = DataValidation(type="list", formula1='"' + ",".join(STATUS) + '"', allow_blank=True)
 ws.add_data_validation(dv)
