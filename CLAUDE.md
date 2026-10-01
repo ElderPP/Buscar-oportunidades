@@ -54,6 +54,8 @@ Combine elegibilidade (posso participar?) e chance real (eu ganho?).
 
 Não infle nota. Relatório de duas linhas é melhor que oito itens sem chance. Dia vazio: diga em uma linha.
 
+Oportunidade com status `descartei` no funil **não** é motivo para deixar de trazer vagas parecidas (mesma cidade, mesmo tipo de cargo, mesma faixa de salário). Ele prefere receber e decidir caso a caso.
+
 ## Sinais de chance alta por trilha
 
 **1. Concursos** — vagas imediatas (não cadastro reserva); prova de títulos com peso alto (é onde ele ganha); banca do perfil dele; lotação pouco disputada; concorrência histórica baixa na edição anterior do mesmo órgão; **vaga com cota PCD sobe a nota** (concorrência menor, e ele é elegível). Informe sempre: nº de vagas, quantas são cota PCD, cadastro reserva sim/não, peso da prova de títulos, banca, taxa, data da prova, exigência de doutorado ou mestrado.
