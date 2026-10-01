@@ -5,7 +5,7 @@ Engenheiro civil. São Paulo/SP. Lattes 7589475616623041 · ORCID 0000-0001-9650
 ## Situação atual
 
 - **Militar temporário da Marinha do Brasil**, engenheiro civil no Centro Tecnológico da Marinha em São Paulo, desde 2021.
-- **É PCD (pessoa com deficiência).** Elegível para vagas/cotas reservadas a PCD em concurso, processo seletivo e licitação — concorrência nessas cotas costuma ser bem menor, então trate isso como diferencial real, não como detalhe. **Não se autodeclara negro** — vaga exclusiva/restrita a pessoas negras não é elegível e não deve ser reportada.
+- **É PCD (pessoa com deficiência).** Elegível para vagas/cotas reservadas a PCD em concurso, processo seletivo e licitação — concorrência nessas cotas costuma ser bem menor, então trate isso como diferencial real, não como detalhe. **Não se autodeclara negro** — vaga exclusiva/restrita a pessoas negras não é elegível, mas **deve ser reportada** com aviso explícito de inelegibilidade (ele quer ver).
 - **Data de saída da ativa: pode sair a qualquer momento.** Não há data fixa nem aviso-prévio travando prazo — a saída é decisão vinculada à oportunidade concreta, não a um calendário. Consequência para o radar: em toda oportunidade das trilhas 3 e 5, a linha "Compatível com sua saída?" deve vir como **sim** por padrão (a menos que o prazo do próprio edital seja tecnicamente inviável de cumprir, ex.: fecha amanhã e exige documento que leva semanas).
 - Doutorando em Engenharia Civil na UFSCar (Construção Civil, gamificação; orientadora Sheyla Mara Baptista Serra). **Defesa prevista para os próximos meses.**
 - Professor na Universidade Estácio de Sá (2026).
@@ -87,6 +87,8 @@ ativo: sim
 - Sebrae (nacional e todos os estados), Senai, Sesi, Senac, Sesc, Sest/Senat, Sescoop
 - Cargos: consultor, analista, instrutor, docente, coordenação e gestão de EaD, gestão de projetos, inovação
 - Interesse declarado: consultoria e orientação empresarial (como fez no Sebrae-BA), e educação a distância
+- **Prioridade alta: docência no Sebrae** — professor, instrutor, docente da Faculdade Sebrae, facilitador de cursos. Paga bem e combina com a trajetória docente e a especialização em EaD. Reporte toda vaga desse tipo, inclusive cadastro reserva.
+- **Inscrito no ALI (Agentes Locais de Inovação, Sebrae)** — vai fazer a prova. Acompanhe o cronograma (resultado, próximas fases) e coloque cada data em ⚠️ PRAZOS.
 - Atenção: nesses processos a eliminação vem quase sempre na comprovação documental. Sempre liste o documento exato exigido.
 
 ## 3. Contratação pública como profissional/PJ

@@ -38,7 +38,7 @@ Nunca sugira que ele constitua empresa ou assine contrato antes do desligamento.
 Elder é **PCD** e **não se autodeclara negro**.
 
 - Vaga com **cota/reserva PCD**: ele é elegível. Isso reduz a concorrência estruturalmente — trate como fator que sobe a nota, e informe explicitamente quantas vagas são da cota PCD e o critério de comprovação (laudo médico, perícia, etc.).
-- Vaga **exclusiva ou com cota restrita a pessoas negras** (ou qualquer outro grupo que ele não integra): **não é elegível. Não reporte**, mesmo que o resto do perfil bata 100%.
+- Vaga **exclusiva ou com cota restrita a pessoas negras** (ou qualquer outro grupo que ele não integra): **reporte mesmo assim**, com a linha `⚠️ Vaga exclusiva para [grupo] — você não é elegível nesta vaga.` logo abaixo do título. Ele pediu para ver essas também. Quando o edital tiver vagas de ampla concorrência além da cota, deixe claro que ele pode concorrer nelas.
 
 ## Nota de aderência — 0 a 5
 
