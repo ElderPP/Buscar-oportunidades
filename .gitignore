@@ -3,3 +3,4 @@ logs/*.log
 !relatorios/.gitkeep
 !logs/.gitkeep
 relatorios/*.pdf
+relatorios/*.xlsx

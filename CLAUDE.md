@@ -93,4 +93,14 @@ Feche com: `Fontes consultadas: X. Novas: Y. Descartadas (prazo vencido, nota <3
 ## Depois
 
 1. Acrescente os URLs reportados a `vistas.txt`.
-2. Acrescente ao `oportunidades.csv` as de nota 4 ou 5, com `status = radar`.
+2. Acrescente ao `oportunidades.csv` **todas** as oportunidades reportadas no dia (inclusive nota 3, as do rodapé "não verificado" e as vagas de cota de outros grupos), uma linha por oportunidade, nas colunas do cabeçalho:
+   - `encontrada_em`: data de hoje (AAAA-MM-DD)
+   - `trilha`: concursos | sistema_s | contratacao_publica | bolsas | emprego | pj_privado
+   - `nota`: 0 a 5, vazio se não deu para avaliar
+   - `titulo`, `orgao`, `local`
+   - `prazo`: AAAA-MM-DD, vazio se não foi confirmado na fonte
+   - `o_que_vence`, `valor`, `cota_pcd`, `o_que_pode_eliminar`, `documento`, `proximo_passo`, `link`
+   - `verificado`: sim | parcial | não
+   - `status`: radar
+   - `notas`: observação curta (ex.: "exclusiva para pessoas negras, não elegível")
+3. Gere a planilha: `python3 planilha.py` (se faltar, `pip install -q openpyxl`). A planilha é a entrega para ele; o relatório em markdown fica como registro.
