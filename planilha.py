@@ -54,8 +54,19 @@ def data(txt):
         return None
 
 
-linhas = list(csv.DictReader(open(BASE / "oportunidades.csv", encoding="utf-8")))
-# Prazos abertos primeiro (mais urgente no topo), depois sem prazo, depois vencidos.
+EM_ANDAMENTO = {"inscrito", "proposta enviada", "em andamento"}
+
+
+def mostrar(r):
+    # Fora da planilha: o que ele descartou e o que venceu sem ele ter entrado (fica só no funil).
+    if r["status"] == "descartei":
+        return False
+    p = data(r["prazo"])
+    return p is None or p >= HOJE or r["status"] in EM_ANDAMENTO
+
+
+linhas = [r for r in csv.DictReader(open(BASE / "oportunidades.csv", encoding="utf-8")) if mostrar(r)]
+# Prazos abertos primeiro (mais urgente no topo), depois sem prazo, depois processos em andamento já sem prazo de inscrição.
 def ordem(r):
     p = data(r["prazo"])
     if p is None:
@@ -131,11 +142,12 @@ ws.auto_filter.ref = f"A1:{get_column_letter(len(COLUNAS))}{ultima}"
 ajuda = wb.create_sheet("Como usar")
 textos = [
     ("Radar de oportunidades — como usar", True),
-    (f"Gerada em {HOJE.strftime('%d/%m/%Y')}. Cada envio traz a lista completa, com as novidades do dia em negrito.", False),
+    (f"Gerada em {HOJE.strftime('%d/%m/%Y')}. Cada envio traz tudo o que ainda está aberto, com as novidades do dia em negrito.", False),
     ("", False),
     ("Colunas em amarelo são suas: Status (escolha na lista) e Minhas anotações.", False),
     ("Dias restantes é calculado sozinho a partir do Prazo: vermelho = até 3 dias, amarelo = até 7 dias, cinza = vencido.", False),
-    ("A lista vem ordenada: prazos abertos primeiro (mais urgente no topo), depois sem prazo, depois vencidos.", False),
+    ("A lista vem ordenada: prazos abertos primeiro (mais urgente no topo), depois os sem prazo confirmado.", False),
+    ("Saem da lista: o que você descartou e o que venceu sem você ter se inscrito. Processos em que você está inscrito continuam.", False),
     ("Use o filtro do cabeçalho para ver só uma trilha, só nota 4 e 5, ou só o que está com status 'inscrito'.", False),
     ("", False),
     ("Importante: cada planilha nova é gerada do zero. Para seu status e anotações aparecerem nas próximas,", False),
