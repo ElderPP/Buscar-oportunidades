@@ -121,8 +121,12 @@ ativo: sim
 - Editais internos da UFSCar e da USP; prêmios da área (ANTAC, IBRACON)
 - Sinalizar sempre se exige dedicação exclusiva (incompatível enquanto na ativa) e qual certificação de idioma pede
 - **Prioridade: bolsista em projetos de convênio** (fundações de apoio que contratam bolsista para executar convênio com órgão público — Fundação PATRIA, FDTE, FUSP, Fundação Ezute, FIPT e afins). Bolsas DTI, P&D, apoio técnico, gestão de projeto de CT&I, sem vínculo CLT. Perfil dele encaixa bem em gestão de convênio, instrução de processo, conformidade documental, propriedade intelectual (tem registro INPI) e engenharia. Varre em **toda execução**.
+  - **Filtro principal: só interessa bolsa que ele consiga fazer SEM sair da Marinha.** Classifique cada uma:
+    - **compatível** — remota ou com carga parcial fora do expediente (noite, fim de semana, por entrega), e o edital aceita quem tem outro vínculo (ex.: UAB/CAPES, UNIVESP, conteudista, professor formador, consultor ad hoc). Reporte normalmente; nota sobe.
+    - **verificar** — dúvida real (sem controle de jornada mas presencial, veda "servidor em dedicação exclusiva" sem falar de militar). Reporte com `⚠️ Compatível com a Marinha? verificar — [motivo].` e nota no máximo 3.
+    - **incompatível** — presencial em horário comercial, dedicação exclusiva/integral, ou veda qualquer vínculo público. Não reporte; some em "Descartadas".
   - Presencial: **só capital e Grande SP** (interior não). Remota: qualquer lugar.
-  - Sempre diga o que o edital veda: vínculo de dedicação exclusiva, acúmulo de bolsa, conflito de interesse. Enquanto ele estiver na ativa, escreva `⚠️ Compatível com a Marinha? verificar — edital veda [o que vedar].`
+  - Bolsas da FDTE no convênio com o CTMSP: ele é militar do próprio CTMSP — trate como provável conflito de interesse (verificar).
 
 ## 5. Emprego privado
 

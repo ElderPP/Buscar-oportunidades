@@ -63,7 +63,15 @@ Antes de avaliar chance, consulte **atas e resultados de certames anteriores do 
 - **Fundação PATRIA** (convênios com Marinha/CTMSP e Aeronáutica/DCTA) — rode `NODE_PATH=$(npm root -g) node patria.js`: lista bolsas e vagas abertas com data final. Edital em PDF: `https://sistemas.patria.org.br/repository//tmp/EDITAL<NN><PROJETO><ANO>ass.pdf` (ex.: EDITAL12FORNIT2026ass.pdf). Leia o local de atuação: a mesma bolsa costuma sair em editais separados por cidade.
 - **FDTE** (Poli-USP; convênio 2130 com o CTMSP, bolsas P&D na área nuclear) — chamadas públicas numeradas em https://www.fdte.org.br/transparencia/portal-da-transparencia/procedimentos-licitatorios/ (a 20ª encerrou em 08/2026; P&D B = R$ 6.500, A = R$ 7.750) e vagas em https://www.fdte.org.br/vagas/. Use `curl`.
 - **FAPESP Oportunidades** — https://fapesp.br/oportunidades/ (bolsas TT, PD, JP abertas em projetos; quase todas pedem dedicação exclusiva — sinalize). Filtre por engenharia, construção, materiais, incêndio, gestão, educação.
-- Outras fundações de apoio para checar quando der: FUSP (USP), Fundação Ezute, FIPT (IPT), Fundação Vanzolini, FAI-UFSCar.
+- **Bolsas EaD que aceitam quem tem outro vínculo (as mais compatíveis com a Marinha)** — remotas, carga parcial, bolsa CAPES/UAB ou do próprio programa:
+  - UNIVESP — facilitador e editais da PRPG em https://univesp.br (ele já foi facilitador/tutor 2023-2025)
+  - UAB/CAPES nas universidades: Unesp EaD (https://processoseletivo.ead.unesp.br), UFSCar SEaD, Unifesp, UFABC, IFSP; e fora de SP com atuação remota: UFMG DEDD (https://www.ufmg.br/dedd), UFMT SETEC (https://setec.ufmt.br), UFSC, UFF/CEDERJ. Cargos: professor formador, professor conteudista, tutor, coordenador de tutoria, designer instrucional. Busque "edital professor formador UAB engenharia 2026", "edital conteudista UAB 2026".
+- **Fundações de apoio em SP** (projetos com bolsa; checar quando der, filtrar pela compatibilidade):
+  - FUSP — https://www.fusp.org.br (USP); AUSPIN tem seleção de bolsista em fluxo contínuo
+  - FIPT — https://www.fipt.org.br (IPT; construção civil, materiais, incêndio)
+  - FAI-UFSCar — editais publicados em sistemas.fai.ufscar.br (programa PACTec com IFSP, inclusive campi da capital)
+  - FapUnifesp, Fundunesp, FIPE, Fundação Vanzolini, Fundação Ezute (defesa; costuma ser CLT)
+- Fora de SP, só se remota: FUNDEP (UFMG), FAPEU e FEESC (UFSC), FINATEC (UnB), FAURGS (UFRGS) — fazem muitos projetos com ministérios.
 
 ## 5. Emprego privado
 
