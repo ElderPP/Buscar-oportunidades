@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Varre as páginas Gupy de universidades e lista vagas de docência no estado de SP (ou remotas).
+"""Varre as páginas Gupy de universidades e lista vagas de docência na capital e Grande SP (ou remotas).
 Uso: python3 gupy.py  ->  uma linha por vaga: instituição | título | cidade | link
 Só descobre: abra o link e confira requisitos antes de reportar."""
 import json
 import re
+import unicodedata
 import urllib.request
 
 # Páginas de carreira no Gupy (subdomínio). Mackenzie, UNIP e Uninove não usam Gupy: ver fontes.md.
@@ -22,6 +23,21 @@ PAGINAS = {
     "senac": "Senac",
 }
 DOCENCIA = re.compile(r"professor|docente|tutor|instrutor|coordenador(a)? de curso|coordena[çc][ãa]o de curso", re.I)
+# Capital + Região Metropolitana. Interior de SP não entra (pedido dele).
+GRANDE_SP = {
+    "sao paulo", "aruja", "barueri", "biritiba-mirim", "caieiras", "cajamar", "carapicuiba", "cotia", "diadema",
+    "embu das artes", "embu-guacu", "ferraz de vasconcelos", "francisco morato", "franco da rocha", "guararema",
+    "guarulhos", "itapecerica da serra", "itapevi", "itaquaquecetuba", "jandira", "juquitiba", "mairipora", "maua",
+    "mogi das cruzes", "osasco", "pirapora do bom jesus", "poa", "ribeirao pires", "rio grande da serra", "salesopolis",
+    "santa isabel", "santana de parnaiba", "santo andre", "sao bernardo do campo", "sao caetano do sul",
+    "sao lourenco da serra", "suzano", "taboao da serra", "vargem grande paulista",
+}
+
+
+def sem_acento(s):
+    return "".join(c for c in unicodedata.normalize("NFD", s or "") if unicodedata.category(c) != "Mn").lower().strip()
+
+
 FORA_DO_PERFIL = re.compile(r"medicina|enfermagem|odonto|fisioterap|farm[áa]cia|nutri[çc]|psicolog|direito|"
                             r"veterin|biomedic|fonoaud|terapia ocupacional|educa[çc][ãa]o f[íi]sica|est[ée]tica|agronomia", re.I)
 
@@ -58,8 +74,7 @@ for slug, nome in PAGINAS.items():
             continue
         w = j.get("workplace") or {}
         end = w.get("address") or {} if isinstance(w, dict) else {}
-        uf = end.get("stateShortName") or end.get("state") or ""
         remoto = "remote" in json.dumps(w).lower()
-        if uf not in ("SP", "São Paulo") and not remoto and "SP" not in titulo.upper().split("/")[-1:]:
+        if not remoto and sem_acento(end.get("city")) not in GRANDE_SP:
             continue
         print(f"{nome} | {titulo} | {end.get('city') or ('remoto' if remoto else '?')} | https://{slug}.gupy.io/jobs/{j['id']}")
