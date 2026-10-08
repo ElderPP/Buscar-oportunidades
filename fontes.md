@@ -58,6 +58,13 @@ Antes de avaliar chance, consulte **atas e resultados de certames anteriores do 
 - ANTAC, IBRACON — prêmios e chamadas da área
 - Internacionais: DAAD, Chevening, Fulbright, Erasmus Mundus (checar exigência de TOEFL iBT/IELTS antes de reportar)
 
+### Bolsista em convênios (toda execução)
+
+- **Fundação PATRIA** (convênios com Marinha/CTMSP e Aeronáutica/DCTA) — rode `NODE_PATH=$(npm root -g) node patria.js`: lista bolsas e vagas abertas com data final. Edital em PDF: `https://sistemas.patria.org.br/repository//tmp/EDITAL<NN><PROJETO><ANO>ass.pdf` (ex.: EDITAL12FORNIT2026ass.pdf). Leia o local de atuação: a mesma bolsa costuma sair em editais separados por cidade.
+- **FDTE** (Poli-USP; convênio 2130 com o CTMSP, bolsas P&D na área nuclear) — chamadas públicas numeradas em https://www.fdte.org.br/transparencia/portal-da-transparencia/procedimentos-licitatorios/ (a 20ª encerrou em 08/2026; P&D B = R$ 6.500, A = R$ 7.750) e vagas em https://www.fdte.org.br/vagas/. Use `curl`.
+- **FAPESP Oportunidades** — https://fapesp.br/oportunidades/ (bolsas TT, PD, JP abertas em projetos; quase todas pedem dedicação exclusiva — sinalize). Filtre por engenharia, construção, materiais, incêndio, gestão, educação.
+- Outras fundações de apoio para checar quando der: FUSP (USP), Fundação Ezute, FIPT (IPT), Fundação Vanzolini, FAI-UFSCar.
+
 ## 5. Emprego privado
 
 - LinkedIn Jobs, Gupy, Vagas.com, InfoJobs, Catho

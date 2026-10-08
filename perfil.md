@@ -120,6 +120,9 @@ ativo: sim
 - Chamadas de fomento a projeto e inovação: FAPESP, FINEP, CNPq, Sebrae
 - Editais internos da UFSCar e da USP; prêmios da área (ANTAC, IBRACON)
 - Sinalizar sempre se exige dedicação exclusiva (incompatível enquanto na ativa) e qual certificação de idioma pede
+- **Prioridade: bolsista em projetos de convênio** (fundações de apoio que contratam bolsista para executar convênio com órgão público — Fundação PATRIA, FDTE, FUSP, Fundação Ezute, FIPT e afins). Bolsas DTI, P&D, apoio técnico, gestão de projeto de CT&I, sem vínculo CLT. Perfil dele encaixa bem em gestão de convênio, instrução de processo, conformidade documental, propriedade intelectual (tem registro INPI) e engenharia. Varre em **toda execução**.
+  - Presencial: **só capital e Grande SP** (interior não). Remota: qualquer lugar.
+  - Sempre diga o que o edital veda: vínculo de dedicação exclusiva, acúmulo de bolsa, conflito de interesse. Enquanto ele estiver na ativa, escreva `⚠️ Compatível com a Marinha? verificar — edital veda [o que vedar].`
 
 ## 5. Emprego privado
 
