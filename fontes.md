@@ -27,7 +27,7 @@ Cada entidade publica em portal próprio, geralmente como "Comunicado" ou "Proce
 - Senai, Sesi e IEL — portais estaduais (FIESP/SP, FIEMG, FIRJAN etc.)
 - Senac e Sesc — portais estaduais
 - Sest/Senat, Sescoop
-- Faculdade Sebrae — vagas de docente/professor (página "Trabalhe conosco" da faculdade e comunicados do Sebrae-SP)
+- Faculdade Sebrae (SP) — vagas de professor adjunto: comunicados do Sebrae-SP ("Trabalhe Conosco", PDFs numerados NNN_2026) e site da banca RBO Concursos, onde é feita a inscrição
 - Credenciamento de instrutores e consultores do Sebrae (editais estaduais de credenciamento de pessoa jurídica para consultoria e instrutoria) — exige saída da ativa, marque como tal
 - ALI — Agentes Locais de Inovação: portais estaduais do Sebrae e bancas do processo, para acompanhar o cronograma
 

@@ -87,7 +87,8 @@ ativo: sim
 - Sebrae (nacional e todos os estados), Senai, Sesi, Senac, Sesc, Sest/Senat, Sescoop
 - Cargos: consultor, analista, instrutor, docente, coordenação e gestão de EaD, gestão de projetos, inovação
 - Interesse declarado: consultoria e orientação empresarial (como fez no Sebrae-BA), e educação a distância
-- **Prioridade alta: docência no Sebrae** — professor, instrutor, docente da Faculdade Sebrae, facilitador de cursos. Paga bem e combina com a trajetória docente e a especialização em EaD. Reporte toda vaga desse tipo, inclusive cadastro reserva.
+- **Prioridade alta: docência no Sebrae — só em São Paulo** (Sebrae-SP e Faculdade Sebrae, na capital). Professor, professor adjunto, instrutor, docente, facilitador de cursos. Paga bem (professor adjunto da Faculdade Sebrae em 2026: cerca de R$ 19,5 mil/mês, CLT) e combina com a trajetória docente e a especialização em EaD. Reporte toda vaga desse tipo em SP, inclusive cadastro reserva, mesmo em área vizinha à dele (gestão, projetos, empreendedorismo, inovação) — ele decide. Docência no Sebrae de outros estados não entra.
+  - Os processos da Faculdade Sebrae saem pela banca RBO e ficam abertos cerca de 1 semana. Olhe a RBO e o "Trabalhe conosco" do Sebrae-SP em toda execução.
 - **ALI (Agentes Locais de Inovação, Sebrae)** — perdeu o prazo do ALI 02/2026 do Sebrae-RJ (encerrou 07/10/2026). Vigie processos seletivos do ALI em **todos os estados** (Sebrae estaduais, FAPs/fundações parceiras e bancas) e reporte as **duas funções**:
   - **Agente Local de Inovação** — graduação + experiência curta (em geral ~6 meses).
   - **Orientador** — exige mestrado ou doutorado + ~1 ano de experiência. **Ele atende** (mestrado UFV, doutorado em curso). Bolsa mais alta (no RJ 02/2026 era R$ 6.500). Dê prioridade a esta.
