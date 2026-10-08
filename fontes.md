@@ -25,6 +25,7 @@ Cada entidade publica em portal próprio, geralmente como "Comunicado" ou "Proce
 - Sebrae-SP — https://sebrae.com.br/sp/sobre-nos/trabalhe-conosco/vagas-efetivas-2026
 - Sebrae Nacional e demais estaduais — cada um tem seu "Trabalhe Conosco"
 - Senai, Sesi e IEL — portais estaduais (FIESP/SP, FIEMG, FIRJAN etc.)
+- Sesi-SP e Senai-SP (docência, prioridade) — processos seletivos em sesisp.org.br e sp.senai.br; Faculdade Sesi de Educação (faculdadesesi.edu.br); seleções maiores já saíram pelo Cebraspe
 - Senac e Sesc — portais estaduais
 - Sest/Senat, Sescoop
 - Faculdade Sebrae (SP) — vagas de professor adjunto: comunicados do Sebrae-SP ("Trabalhe Conosco", PDFs numerados NNN_2026) e site da banca RBO Concursos, onde é feita a inscrição
