@@ -74,6 +74,7 @@ ativo: sim
 - Magistério Superior em universidades federais e estaduais — Engenharia Civil, Construção Civil, Gestão da Construção, Estruturas, Segurança contra Incêndio
 - EBTT em Institutos Federais, CEFETs e colégios técnicos — Edificações, Construção Civil, Desenho Técnico
 - Centro Paula Souza (ETEC/FATEC) — professor efetivo
+- **UNIVESP — Supervisor Pedagógico** (processo seletivo simplificado, CLT por prazo determinado, ~R$ 7.000, 40h). Último: Edital 03/2025, Cebraspe, 54 vagas com reserva PCD, inscrições 26/03–10/04/2025, prova em São Paulo; validade 12 meses prorrogável por mais 12 a partir da homologação (meados de 2025), então o próximo deve sair entre meados de 2026 e 2027. Exige mestrado ou doutorado na área; em 2025 as áreas foram Administração, Computação, Educação, Educação Matemática, Eng. de Computação, Eng. de Produção e afins — reporte mesmo se Engenharia Civil não estiver listada, apontando a área "afim" mais próxima (Eng. de Produção/Administração, por gestão de projetos e o MBA). Prova de títulos vale 35 pontos (doutorado 20, mestrado 15). Ele conhece a UNIVESP por dentro (facilitador 2023-2025).
 - Engenheiro civil em órgãos federais, estaduais, municipais, autarquias e agências
 - Analista/perito em tribunais e órgãos de controle (TCU, TCEs, CGU, TJs, TRTs, MPs) — orçamento de obras, contratações públicas, fiscalização, engenharia
 - **Salário mínimo:** sem piso. Concurso não é empresa privada, então reporte independente do valor.

@@ -8,6 +8,7 @@ Oficiais:
 - Diário Oficial da União — https://www.in.gov.br (editais federais saem aqui primeiro)
 - Portal do MEC e páginas "Concursos" de cada IF e universidade federal — os editais docentes muitas vezes só saem lá
 - Centro Paula Souza — https://www.cps.sp.gov.br (concursos ETEC/FATEC)
+- UNIVESP — processos seletivos (Supervisor Pedagógico e outros) em https://univesp.br e no Cebraspe (https://www.cebraspe.org.br/concursos/ — procure UNIVESP_26_PSS / UNIVESP_27_PSS); publicação no DOE-SP
 - Diários oficiais estaduais e municipais
 - Bancas: Cebraspe, FGV, FCC, Vunesp, Cesgranrio, IBFC, IDECAN, Instituto AOCP
 
