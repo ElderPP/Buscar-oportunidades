@@ -55,11 +55,12 @@ def data(txt):
 
 
 EM_ANDAMENTO = {"inscrito", "proposta enviada", "em andamento"}
+ENCERRADOS = {"descartei", "perdi prazo", "reprovado"}
 
 
 def mostrar(r):
-    # Fora da planilha: o que ele descartou e o que venceu sem ele ter entrado (fica só no funil).
-    if r["status"] == "descartei":
+    # Fora da planilha: o que ele descartou, perdeu ou já foi encerrado, e o que venceu sem ele ter entrado (fica só no funil).
+    if r["status"] in ENCERRADOS:
         return False
     p = data(r["prazo"])
     return p is None or p >= HOJE or r["status"] in EM_ANDAMENTO
@@ -147,7 +148,7 @@ textos = [
     ("Colunas em amarelo são suas: Status (escolha na lista) e Minhas anotações.", False),
     ("Dias restantes é calculado sozinho a partir do Prazo: vermelho = até 3 dias, amarelo = até 7 dias, cinza = vencido.", False),
     ("A lista vem ordenada: prazos abertos primeiro (mais urgente no topo), depois os sem prazo confirmado.", False),
-    ("Saem da lista: o que você descartou e o que venceu sem você ter se inscrito. Processos em que você está inscrito continuam.", False),
+    ("Saem da lista: o que você descartou, perdeu o prazo ou foi reprovado, e o que venceu sem você ter se inscrito. Processos em que você está inscrito continuam.", False),
     ("Use o filtro do cabeçalho para ver só uma trilha, só nota 4 e 5, ou só o que está com status 'inscrito'.", False),
     ("", False),
     ("Importante: cada planilha nova é gerada do zero. Para seu status e anotações aparecerem nas próximas,", False),

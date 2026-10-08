@@ -88,7 +88,10 @@ ativo: sim
 - Cargos: consultor, analista, instrutor, docente, coordenação e gestão de EaD, gestão de projetos, inovação
 - Interesse declarado: consultoria e orientação empresarial (como fez no Sebrae-BA), e educação a distância
 - **Prioridade alta: docência no Sebrae** — professor, instrutor, docente da Faculdade Sebrae, facilitador de cursos. Paga bem e combina com a trajetória docente e a especialização em EaD. Reporte toda vaga desse tipo, inclusive cadastro reserva.
-- **Inscrito no ALI (Agentes Locais de Inovação, Sebrae)** — vai fazer a prova. Acompanhe o cronograma (resultado, próximas fases) e coloque cada data em ⚠️ PRAZOS.
+- **ALI (Agentes Locais de Inovação, Sebrae)** — perdeu o prazo do ALI 02/2026 do Sebrae-RJ (encerrou 07/10/2026). Vigie processos seletivos do ALI em **todos os estados** (Sebrae estaduais, FAPs/fundações parceiras e bancas) e reporte as **duas funções**:
+  - **Agente Local de Inovação** — graduação + experiência curta (em geral ~6 meses).
+  - **Orientador** — exige mestrado ou doutorado + ~1 ano de experiência. **Ele atende** (mestrado UFV, doutorado em curso). Bolsa mais alta (no RJ 02/2026 era R$ 6.500). Dê prioridade a esta.
+  - Prazos de inscrição desses processos são curtos: coloque cada data em ⚠️ PRAZOS.
 - Atenção: nesses processos a eliminação vem quase sempre na comprovação documental. Sempre liste o documento exato exigido.
 
 ## 3. Contratação pública como profissional/PJ
