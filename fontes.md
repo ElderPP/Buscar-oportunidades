@@ -64,6 +64,14 @@ Antes de avaliar chance, consulte **atas e resultados de certames anteriores do 
 - Páginas de carreira de construtoras, incorporadoras, gerenciadoras e consultorias de contratações públicas
 - Faculdades privadas com EaD: portais de "trabalhe conosco"
 
+### Docência em universidades privadas de SP (toda execução)
+
+1. **Rode `python3 gupy.py`** — lê as páginas Gupy de FMU, Cogna, Yduqs, Cruzeiro do Sul, Ânima, Unicid, PUC-SP, Ibmec, UniFECAF, Ceunsp, Facens e Senac e lista as vagas de docência em SP. Abra cada link novo (fora de `vistas.txt`) e confira requisitos. Se achar outra universidade no Gupy, acrescente o subdomínio em `PAGINAS`.
+2. **Mackenzie** — não usa Gupy. Editais em https://www.mackenzie.br/processos-seletivos/docente (Processo Seletivo Docente Unificado, PSDU, um por semestre; o 2026.2 já foi concluído; o próximo deve sair perto do fim do ano). Inscrição por e-mail à unidade (Escola de Engenharia: engenharia@mackenzie.br). O WebFetch corta a página; use `curl` e procure links de PDF com "Edital".
+3. **UNIP e Uninove** — não usam Gupy nem publicam edital de graduação de forma visível. Busque "UNIP professor engenharia vaga" / "Uninove professor engenharia vaga" no WebSearch e em LinkedIn/Indeed.
+4. **LinkedIn** — bloqueia leitura automática. Use WebSearch com `site:linkedin.com/jobs professor engenharia civil São Paulo` só para descobrir; confirme no site da instituição ou no Gupy. O que não der para abrir vai para "não verificado".
+5. FEI, Mauá, FIAP, Insper, Belas Artes, São Camilo: páginas "trabalhe conosco" próprias — checar quando houver tempo.
+
 ## 6. PJ / consultoria privada
 
 Trilha sem portal centralizado — a maior parte não aparece sem rede de contatos. Ainda assim, dá pra varrer:

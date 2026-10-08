@@ -128,6 +128,8 @@ ativo: sim — ⚠️ exige saída da ativa
 - Engenheiro civil, planejamento, gestão de contratos, gestão de projetos, Onsite Manager
 - Consultoria em contratações públicas, orçamento e fiscalização
 - Docência em faculdades privadas, coordenação e gestão de EaD
+- **Prioridade: professor em universidades e faculdades privadas de SP** — Mackenzie, UNIP, Uninove, FMU, São Judas/Anhembi (Ânima), Cruzeiro do Sul, Unicid, Anhanguera/Pitágoras (Cogna), Estácio/Ibmec (Yduqs), PUC-SP, FEI, Mauá, FIAP, Facens, Ceunsp, UniFECAF e outras. Engenharia Civil e áreas vizinhas (construção, estruturas, orçamento, gestão de projetos, segurança do trabalho, desenho técnico, EaD). Inclui banco de talentos docente. Capital e Grande SP primeiro; interior de SP entra com a cidade e a distância da capital no título, para ele decidir. **Varre em toda execução** (seg/qua/sex), não só na segunda.
+  - Ele já dá aula na Estácio estando na ativa: em vaga de docência, troque a linha de saída da ativa por `⚠️ Compatível com a Marinha? verificar — você já leciona na Estácio na ativa.`
 - **Salário mínimo:** sem piso definido por enquanto. Como esta trilha já exige saída da ativa (e ele pode sair a qualquer momento), a decisão de aceitar é caso a caso — reporte todas as vagas elegíveis independente do valor.
 - **Modalidade:** presencial, híbrido ou remoto — todos aceitos.
 - **Praça: apenas São Paulo.** Diferente das outras trilhas, vaga de empresa privada fora de SP não entra.
@@ -156,5 +158,5 @@ O radar roda segunda, quarta e sexta.
 - Sistema S: segunda, quarta e sexta
 - Contratação pública: segunda, quarta e sexta
 - Bolsas: segunda, quarta e sexta
-- Emprego privado: só segunda (rendeu pouco: anúncios de agregador sem prazo)
+- Emprego privado: só segunda (rendeu pouco: anúncios de agregador sem prazo) — **exceto docência em universidades privadas de SP, que roda segunda, quarta e sexta**
 - PJ/consultoria privada: só segunda (fontes informais, baixo volume — ver `fontes.md`)

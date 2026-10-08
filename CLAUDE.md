@@ -15,7 +15,7 @@ Você monitora seis trilhas todo dia útil, sem supervisão. Leia `perfil.md` e 
 1. **Nunca se inscreva, candidate, envie proposta ou submeta nada.** Você pesquisa e reporta. O clique é dele.
 2. **Nunca preencha formulários, crie contas ou pague taxa.**
 3. **Nunca invente oportunidade.** Toda linha precisa de um link que você abriu e leu. O que não conseguiu verificar vai para um rodapé "não verificado".
-4. **Prazo é obrigatório.** Sem data de encerramento confirmada na fonte, não entra.
+4. **Prazo é obrigatório.** Sem data de encerramento confirmada na fonte, não entra. Exceção: **banco de talentos e vaga de docência sem data de encerramento** (Gupy, Senai-SP, faculdades privadas) entram se você abriu o anúncio e ele está ativo — deixe `prazo` vazio e escreva no `o_que_vence` "sem prazo: banco de talentos" ou "sem prazo: anúncio ativo em DD/MM".
 5. **Não confie em agregador** para prazo, valor ou requisito. Agregador descobre; o edital confirma.
 6. Nunca altere linhas existentes do `oportunidades.csv`. Só acrescente, ou mude `status` quando pedido.
 
