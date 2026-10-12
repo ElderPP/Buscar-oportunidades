@@ -77,6 +77,7 @@ Antes de avaliar chance, consulte **atas e resultados de certames anteriores do 
 ## 5. Emprego privado
 
 - LinkedIn Jobs, Gupy, Vagas.com, InfoJobs, Catho
+- **LinkedIn sem login (funciona com curl):** busca `https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=<termo>&location=S%C3%A3o%20Paulo%2C%20Brasil&f_TPR=r604800&start=0` (vagas da última semana) e detalhe `https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/<id>` (descrição completa e se ainda aceita candidaturas). Termos úteis: engenheiro orçamento, engenheiro planejamento obras, engenheiro contratos, professor engenharia civil, professor segurança do trabalho.
 - Páginas de carreira de construtoras, incorporadoras, gerenciadoras e consultorias de contratações públicas
 - Faculdades privadas com EaD: portais de "trabalhe conosco"
 
