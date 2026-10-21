@@ -114,6 +114,13 @@ ativo: sim — ⚠️ toda oportunidade exige saída da ativa antes de contratar
 - Nicho de maior força: orçamento de obras, segurança contra incêndio em estruturas, avaliação de qualidade e produtividade
 - Engenheiro civil não pode ser MEI (profissão regulamentada)
 
+## Prioridade transversal: UNOPS / organismos da ONU
+
+Ele quer muito trabalhar na UNOPS (pedido em 21/10/2026). Reporte toda vaga home-based ou no Brasil em que ele atenda o requisito de formação e experiência — engenharia civil, gestão de construção, **procurement / contratações públicas**, gestão de contratos, gestão de projetos, treinamento. Nota sobe quando o trabalho é o que ele já faz na Marinha (ETP, TR, documentos de licitação, avaliação de propostas, gestão de contrato).
+- **Gargalo principal: inglês.** A maioria das vagas internacionais pede inglês fluente; as do escritório Brasil/Cone Sul costumam pedir só básico. Sempre diga o nível exigido. TOEIC/TOEFL ITP não provam fluência — sinalize.
+- Vagas exclusivas para PCD da UNOPS Brasil existem (trainee), mas costumam exigir formatura recente — confira.
+- Contrato LICA/IICA é remunerado: escreva `⚠️ Compatível com a Marinha? verificar` (retainer remoto pode ser conciliável; tempo integral não).
+
 ## 4. Bolsas e fomento
 
 ativo: sim
