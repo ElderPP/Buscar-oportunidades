@@ -51,6 +51,8 @@ Atenção: prazos de inscrição do Sistema S costumam ser curtíssimos, às vez
 - Cadastro de perito judicial: TJSP, TRF3, varas trabalhistas
 - Plataformas de disputa: Licitações-e, BLL, Portal de Compras Públicas, BNC, BEC/SP
 
+- **UNOPS (ONU) — escritório do Cone Sul, Brasil** — contratos individuais LICA, muitos home-based, para projetos com ministérios brasileiros (engenheiro civil, estrutural, geotécnico, gestão de construção, apoio à gestão de projetos, arquitetura escolar). Janela de inscrição de ~2 semanas. Portal: https://careers.unops.org/careersmarketplace/ (detalhe: /careersmarketplace/JobDetail/<id>, abre com WebFetch); descoberta: WebSearch "UNOPS Brazil LICA engineer" e https://www.impactpool.org. Prazo é meia-noite de Copenhague. Contrato LICA é remunerado e costuma ser em tempo integral — sinalize compatibilidade com a Marinha (retainer = sob demanda, verificar).
+
 Antes de avaliar chance, consulte **atas e resultados de certames anteriores do mesmo órgão para o mesmo objeto** — é o melhor indicador de quantos concorrem.
 
 ## 4. Bolsas e fomento
