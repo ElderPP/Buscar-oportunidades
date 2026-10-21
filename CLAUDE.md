@@ -105,4 +105,4 @@ Feche com: `Fontes consultadas: X. Novas: Y. Descartadas (prazo vencido, nota <3
    - `verificado`: sim | parcial | não
    - `status`: radar
    - `notas`: observação curta (ex.: "exclusiva para pessoas negras, não elegível")
-3. Gere a planilha: `python3 planilha.py` (se faltar, `pip install -q openpyxl`). A planilha é a entrega para ele; o relatório em markdown fica como registro.
+3. Gere a planilha: `python3 planilha.py` (se faltar, `python3 -m pip install -q openpyxl` — o `pip` solto pode instalar em outro Python). A planilha é a entrega para ele; o relatório em markdown fica como registro.
