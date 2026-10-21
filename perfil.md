@@ -70,7 +70,8 @@ Onde a seleção premia título e produção, ele sobe. Onde premia só prova ob
 
 ativo: sim
 
-- **Docente: só efetivo. Nunca reporte vaga de professor substituto ou temporário.**
+- **Docente: efetivo ou professor visitante.** Nunca reporte professor substituto nem outro contrato temporário que não seja "visitante".
+  - **Professor visitante** (federais, estaduais — inclusive REDA na Bahia, CLT/temporário em SP): reporte em qualquer estado, em Engenharia Civil e áreas afins (estruturas, construção civil, gestão da construção, materiais de construção, segurança contra incêndio, orçamento). Quase sempre exige **doutorado concluído** (ele ainda não defendeu) e às vezes produção recente com JCR — diga explicitamente se exige e se ele atende hoje. Se a única falta for o doutorado e a defesa puder ocorrer antes da inscrição, nota 2 com o aviso; senão, descarte.
 - Magistério Superior em universidades federais e estaduais — Engenharia Civil, Construção Civil, Gestão da Construção, Estruturas, Segurança contra Incêndio
 - EBTT em Institutos Federais, CEFETs e colégios técnicos — Edificações, Construção Civil, Desenho Técnico
 - Centro Paula Souza (ETEC/FATEC) — professor efetivo

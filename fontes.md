@@ -15,6 +15,11 @@ Oficiais:
 Agregadores (descoberta):
 - PCI Concursos, Concursos no Brasil, Folha Dirigida
 
+Universidades estaduais (concurso efetivo e seleção de professor visitante — muitas vezes só no site da própria universidade ou no diário oficial do estado, sem aparecer em agregador):
+- Bahia: UESC (https://www.uesc.br — "Editais"), UESB, UNEB, UEFS; Diário Oficial da Bahia
+- São Paulo: Unesp, Unicamp, USP (DOE-SP, seção "Concursos"); Paraná: UEL, UEM, UEPG, Unioeste; Rio: UERJ, UENF
+- Termos: "professor visitante engenharia civil edital", "REDA professor visitante engenharia", "concurso docente engenharia civil universidade estadual"
+
 Para concurso docente, busque **o edital da edição anterior do mesmo órgão** para ver peso da prova de títulos e concorrência histórica. É onde o perfil dele decide.
 
 Termos de busca úteis: "professor efetivo engenharia civil", "EBTT edificações", "magistério superior construção civil", "engenheiro civil analista", "perito engenharia tribunal".

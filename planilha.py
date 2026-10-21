@@ -63,6 +63,10 @@ def mostrar(r):
     if r["status"] in ENCERRADOS:
         return False
     p = data(r["prazo"])
+    if p is None and r["o_que_vence"].startswith("sem prazo: anúncio ativo") and r["status"] not in EM_ANDAMENTO:
+        # Anúncio sem data de encerramento: depois de 30 dias provavelmente já fechou.
+        e = data(r["encontrada_em"])
+        return e is None or (HOJE - e).days <= 30
     return p is None or p >= HOJE or r["status"] in EM_ANDAMENTO
 
 
