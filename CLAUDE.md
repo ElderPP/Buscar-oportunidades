@@ -57,6 +57,9 @@ Combine elegibilidade (posso participar?) e chance real (eu ganho?).
    **Sem piso para o que dá para fazer junto com a Marinha** (pedido dele em 23/10/2026): aula à noite ou no fim de semana, bolsa EaD/UAB, tutoria, conteudista, consultoria remota sob demanda (retainer), credenciamento por demanda. Esses entram com qualquer valor, desde que o horário e o edital sejam de fato compatíveis — diga por quê.
    Hora-aula/RPA em horário de expediente (seg–sex de dia) conta como "exige sair"; aplica-se o piso.
 2. **Requisito obrigatório tem que estar comprovado no perfil.md.** Leia cada requisito obrigatório (formação, área da titulação, tipo e tempo de experiência, idioma, registro) e aponte a linha do perfil que o atende. Se algum não tiver evidência clara — por exemplo, "experiência em prospecção comercial e negociação com indústria", "experiência com avaliação educacional em larga escala", "atestados de perícia/laudo", "graduação em X" diferente da dele — a nota é no máximo 2 e a vaga não entra. Não preencha lacuna com "experiência parecida"; na dúvida, fica de fora.
+   **Duas exceções (pedido dele em 23/10/2026) — estas entram, com o aviso explícito:**
+   - **Idioma** (ex.: inglês fluente): não elimina. Escreva `⚠️ Exige [idioma] [nível] — confira se você sustenta entrevista nesse nível.`
+   - **Requisito que não deu para ler/confirmar** (imagem, PDF fechado, anexo inacessível): não elimina. Escreva `⚠️ Requisito de formação não confirmado — confira antes de se inscrever.` Requisito que foi lido e ele não atende continua eliminando.
 
 Não infle nota. Relatório de duas linhas é melhor que oito itens sem chance. Dia vazio: diga em uma linha.
 
