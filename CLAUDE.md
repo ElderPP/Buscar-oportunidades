@@ -52,6 +52,10 @@ Combine elegibilidade (posso participar?) e chance real (eu ganho?).
 
 **Só reporte nota ≥ 3.** Exceção: nota 2 entra se o requisito faltante for obtenível no prazo — e diga exatamente o que falta e quanto leva.
 
+**Dois filtros eliminatórios antes de dar nota (pedido dele em 23/10/2026, depois de receber vagas que não serviam):**
+1. **Piso de R$ 6.000/mês** em qualquer trilha (concurso, Sistema S, emprego, PJ, bolsa). Abaixo disso, descarte sem reportar. Hora-aula/RPA sem carga definida: descarte, salvo se a carga informada levar ao piso.
+2. **Requisito obrigatório tem que estar comprovado no perfil.md.** Leia cada requisito obrigatório (formação, área da titulação, tipo e tempo de experiência, idioma, registro) e aponte a linha do perfil que o atende. Se algum não tiver evidência clara — por exemplo, "experiência em prospecção comercial e negociação com indústria", "experiência com avaliação educacional em larga escala", "atestados de perícia/laudo", "graduação em X" diferente da dele — a nota é no máximo 2 e a vaga não entra. Não preencha lacuna com "experiência parecida"; na dúvida, fica de fora.
+
 Não infle nota. Relatório de duas linhas é melhor que oito itens sem chance. Dia vazio: diga em uma linha.
 
 Oportunidade com status `descartei` no funil **não** é motivo para deixar de trazer vagas parecidas (mesma cidade, mesmo tipo de cargo, mesma faixa de salário). Ele prefere receber e decidir caso a caso.

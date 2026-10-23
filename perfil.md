@@ -78,7 +78,7 @@ ativo: sim
 - **UNIVESP — Supervisor Pedagógico** (processo seletivo simplificado, CLT por prazo determinado, ~R$ 7.000, 40h). Último: Edital 03/2025, Cebraspe, 54 vagas com reserva PCD, inscrições 26/03–10/04/2025, prova em São Paulo; validade 12 meses prorrogável por mais 12 a partir da homologação (meados de 2025), então o próximo deve sair entre meados de 2026 e 2027. Exige mestrado ou doutorado na área; em 2025 as áreas foram Administração, Computação, Educação, Educação Matemática, Eng. de Computação, Eng. de Produção e afins — reporte mesmo se Engenharia Civil não estiver listada, apontando a área "afim" mais próxima (Eng. de Produção/Administração, por gestão de projetos e o MBA). Prova de títulos vale 35 pontos (doutorado 20, mestrado 15). Ele conhece a UNIVESP por dentro (facilitador 2023-2025).
 - Engenheiro civil em órgãos federais, estaduais, municipais, autarquias e agências
 - Analista/perito em tribunais e órgãos de controle (TCU, TCEs, CGU, TJs, TRTs, MPs) — orçamento de obras, contratações públicas, fiscalização, engenharia
-- **Salário mínimo:** sem piso. Concurso não é empresa privada, então reporte independente do valor.
+- **Salário mínimo: R$ 6.000/mês** (remuneração inicial com gratificação de titulação que ele já tem). Abaixo disso, não reporte.
 - **Estados aceitáveis:** qualquer estado do Brasil.
 - **Mudança de cidade:** aceita.
 
@@ -146,7 +146,7 @@ ativo: sim — ⚠️ exige saída da ativa
 - Docência em faculdades privadas, coordenação e gestão de EaD
 - **Prioridade: professor em universidades e faculdades privadas de SP** — Mackenzie, UNIP, Uninove, FMU, São Judas/Anhembi (Ânima), Cruzeiro do Sul, Unicid, Anhanguera/Pitágoras (Cogna), Estácio/Ibmec (Yduqs), PUC-SP, FEI, Mauá, FIAP, Facens, Ceunsp, UniFECAF e outras. Engenharia Civil e áreas vizinhas (construção, estruturas, orçamento, gestão de projetos, segurança do trabalho, desenho técnico, EaD). Inclui banco de talentos docente. **Só capital e Grande SP** (Região Metropolitana). Interior de SP não entra. **Varre em toda execução** (seg/qua/sex), não só na segunda.
   - Ele já dá aula na Estácio estando na ativa: em vaga de docência, troque a linha de saída da ativa por `⚠️ Compatível com a Marinha? verificar — você já leciona na Estácio na ativa.`
-- **Salário mínimo:** sem piso definido por enquanto. Como esta trilha já exige saída da ativa (e ele pode sair a qualquer momento), a decisão de aceitar é caso a caso — reporte todas as vagas elegíveis independente do valor.
+- **Salário mínimo: R$ 6.000/mês.** Abaixo disso, não reporte. Se o anúncio não informa salário, só reporte se o cargo/nível tipicamente paga acima do piso (ex.: engenheiro pleno em SP) e diga "salário não informado".
 - **Modalidade:** presencial, híbrido ou remoto — todos aceitos.
 - **Praça: apenas São Paulo.** Diferente das outras trilhas, vaga de empresa privada fora de SP não entra.
 
@@ -161,7 +161,7 @@ Diferente da trilha 3 (contratação **pública** como PJ) e da trilha 5 (empreg
 - Consultoria em gestão de contratos e orçamento para empresas que fornecem para a administração pública (apoiando o lado fornecedor da Lei 14.133)
 - Parecer técnico e due diligence construtiva/imobiliária
 - Curso, palestra ou workshop avulso como PJ (não é vínculo empregatício — se for CLT, é trilha 5)
-- **Salário/honorário mínimo:** sem piso definido — mesma lógica da trilha 5: já exige saída, decisão caso a caso, reporte tudo que for elegível.
+- **Honorário mínimo:** equivalente a R$ 6.000/mês. Trabalho avulso por hora/hora-aula só entra se a carga prevista chegar a esse valor.
 - **Abrangência geográfica:** sem restrição a princípio — é trabalho por projeto/caso, não vínculo que exige morar lá. Se uma oportunidade concreta exigir presença fixa fora de SP, sinalize isso explicitamente no relatório para ele decidir (mesmo padrão de cautela da trilha 5, mas sem descartar de saída).
 
 ---
