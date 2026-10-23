@@ -53,7 +53,9 @@ Combine elegibilidade (posso participar?) e chance real (eu ganho?).
 **Só reporte nota ≥ 3.** Exceção: nota 2 entra se o requisito faltante for obtenível no prazo — e diga exatamente o que falta e quanto leva.
 
 **Dois filtros eliminatórios antes de dar nota (pedido dele em 23/10/2026, depois de receber vagas que não serviam):**
-1. **Piso de R$ 6.000/mês** em qualquer trilha (concurso, Sistema S, emprego, PJ, bolsa). Abaixo disso, descarte sem reportar. Hora-aula/RPA sem carga definida: descarte, salvo se a carga informada levar ao piso.
+1. **Piso de R$ 6.000/mês para tudo que exige sair da Marinha** (concurso, CLT, Sistema S, PJ, bolsa de dedicação exclusiva, contrato em tempo integral). Abaixo disso, descarte sem reportar.
+   **Sem piso para o que dá para fazer junto com a Marinha** (pedido dele em 23/10/2026): aula à noite ou no fim de semana, bolsa EaD/UAB, tutoria, conteudista, consultoria remota sob demanda (retainer), credenciamento por demanda. Esses entram com qualquer valor, desde que o horário e o edital sejam de fato compatíveis — diga por quê.
+   Hora-aula/RPA em horário de expediente (seg–sex de dia) conta como "exige sair"; aplica-se o piso.
 2. **Requisito obrigatório tem que estar comprovado no perfil.md.** Leia cada requisito obrigatório (formação, área da titulação, tipo e tempo de experiência, idioma, registro) e aponte a linha do perfil que o atende. Se algum não tiver evidência clara — por exemplo, "experiência em prospecção comercial e negociação com indústria", "experiência com avaliação educacional em larga escala", "atestados de perícia/laudo", "graduação em X" diferente da dele — a nota é no máximo 2 e a vaga não entra. Não preencha lacuna com "experiência parecida"; na dúvida, fica de fora.
 
 Não infle nota. Relatório de duas linhas é melhor que oito itens sem chance. Dia vazio: diga em uma linha.
