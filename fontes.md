@@ -96,6 +96,14 @@ Antes de avaliar chance, consulte **atas e resultados de certames anteriores do 
 4. **LinkedIn** — bloqueia leitura automática. Use WebSearch com `site:linkedin.com/jobs professor engenharia civil São Paulo` só para descobrir; confirme no site da instituição ou no Gupy. O que não der para abrir vai para "não verificado".
 5. FEI, Mauá, FIAP, Insper, Belas Artes, São Camilo: páginas "trabalhe conosco" próprias — checar quando houver tempo.
 
+### Trabalho remoto (toda execução)
+
+- `python3 unops.py` (home-based) e `python3 gupy.py` (já lista vagas remotas de docência).
+- LinkedIn sem login com `geoId=106057199` (Brasil) e `f_WT=2` (remoto) — **o filtro erra**: abra o detalhe e confirme "remoto/home office" no texto antes de reportar.
+- Bancos de elaboradores de questões das bancas (Cebraspe, FGV Conhecimento, Vunesp, FCC, IBFC, Instituto AOCP, RBO) — cadastro de especialistas pagos por questão; procure "banco de elaboradores", "cadastro de colaboradores elaboração de itens".
+- Conteudista/autor EaD: páginas de carreira de Yduqs, Cogna (Sagah), Ânima, Cruzeiro do Sul Virtual, UNIVESP; editais UAB de professor conteudista.
+- Agregadores de vagas remotas no Brasil: remotar.com.br, trampos.co (filtrar engenharia, gestão de projetos, educação).
+
 ## 6. PJ / consultoria privada
 
 Trilha sem portal centralizado — a maior parte não aparece sem rede de contatos. Ainda assim, dá pra varrer:

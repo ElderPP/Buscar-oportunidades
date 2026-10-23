@@ -114,6 +114,15 @@ ativo: sim — ⚠️ toda oportunidade exige saída da ativa antes de contratar
 - Nicho de maior força: orçamento de obras, segurança contra incêndio em estruturas, avaliação de qualidade e produtividade
 - Engenheiro civil não pode ser MEI (profissão regulamentada)
 
+## Prioridade transversal: trabalho remoto
+
+Ele tem bastante interesse em trabalho remoto (pedido em 23/10/2026).
+- **Remoto vale de qualquer lugar do Brasil** (e do exterior, se o idioma permitir), em todas as trilhas — a restrição "só SP" e "só capital/Grande SP" vale para presencial, não para remoto.
+- **Nota +1** quando for 100% remoto (sem passar de 5). Híbrido conta como presencial.
+- Sempre confirme no texto do anúncio que é remoto ("remoto", "home office", "home-based", "100% online"); o filtro de remoto dos portais erra muito.
+- **Remoto + compatível com a Marinha é o melhor caso** — dê destaque: tutor/professor EaD, professor formador e conteudista UAB, autor/conteudista de material didático (Yduqs, Cogna/Sagah, Ânima, Cruzeiro do Sul Virtual, UNIVESP), **elaborador e revisor de questões para bancas de concurso** (Cebraspe, FGV, Vunesp, FCC, IBFC, Instituto AOCP — banco de elaboradores, pagamento por questão), parecerista/avaliador ad hoc pago, consultoria remota sob demanda (UNOPS retainer). Esses entram com qualquer valor (ver piso no CLAUDE.md).
+- Remoto em tempo integral (CLT ou LICA full-time) continua exigindo sair da Marinha — aplica-se o piso de R$ 6 mil.
+
 ## Prioridade transversal: UNOPS / organismos da ONU
 
 Ele quer muito trabalhar na UNOPS (pedido em 21/10/2026). Reporte toda vaga home-based ou no Brasil em que ele atenda o requisito de formação e experiência — engenharia civil, gestão de construção, **procurement / contratações públicas**, gestão de contratos, gestão de projetos, treinamento. Nota sobe quando o trabalho é o que ele já faz na Marinha (ETP, TR, documentos de licitação, avaliação de propostas, gestão de contrato).
