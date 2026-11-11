@@ -28,7 +28,7 @@ Termos de busca úteis: "professor efetivo engenharia civil", "EBTT edificaçõe
 
 Cada entidade publica em portal próprio, geralmente como "Comunicado" ou "Processo Seletivo Externo". Não saem no DOU. Verifique um por um:
 
-- Sebrae-SP — https://sebrae.com.br/sp/sobre-nos/trabalhe-conosco/vagas-efetivas-2026
+- Sebrae-SP — https://sebrae.com.br/sp/sobre-nos/trabalhe-conosco/vagas-efetivas-2026 (página em JavaScript: curl volta vazio; use `node sebrae.js`. Cada processo tem status "INSCRIÇÕES ABERTAS/ENCERRADAS"; requisitos no Anexo I do PDF COMUNICADO. Registre no relatório que o Sebrae-SP foi checado, mesmo sem vaga)
 - Sebrae Nacional e demais estaduais — cada um tem seu "Trabalhe Conosco"
 - Senai, Sesi e IEL — portais estaduais (FIESP/SP, FIEMG, FIRJAN etc.)
 - **Sesc-SP** — vagas efetivas CLT em https://www.reachr.com.br/sesc-sp/ (página em JavaScript: renderize com Playwright/Chromium, como no patria.js, e leia o texto; "Nenhuma vaga foi encontrada" = sem vagas). Aviso de novas seleções também em https://www.sescsp.org.br/oportunidades-de-trabalho/.
