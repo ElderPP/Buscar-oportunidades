@@ -6,8 +6,8 @@ const { chromium } = require('playwright');
   const p = await b.newPage();
   for (const u of process.argv.slice(2)) {
     try {
-      await p.goto(u, { waitUntil: 'networkidle', timeout: 60000 });
-      await p.waitForTimeout(4000);
+      await p.goto(u, { waitUntil: 'domcontentloaded', timeout: 90000 });
+      await p.waitForTimeout(12000);
       const txt = (await p.innerText('body')).replace(/\s+\n/g, '\n');
       console.log('=== ' + u + '\n' + txt.slice(0, 6000));
       const links = await p.$$eval('a', as => as.map(a => (a.innerText.trim().slice(0,90) + ' | ' + a.href)).filter(s => /pdf|comunicado|rbo|inscri|edital|processo/i.test(s)));

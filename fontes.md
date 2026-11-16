@@ -103,6 +103,7 @@ Antes de avaliar chance, consulte **atas e resultados de certames anteriores do 
 - `python3 unops.py` (home-based) e `python3 gupy.py` (já lista vagas remotas de docência).
 - LinkedIn sem login com `geoId=106057199` (Brasil) e `f_WT=2` (remoto) — **o filtro erra**: abra o detalhe e confirme "remoto/home office" no texto antes de reportar.
 - Bancos de elaboradores de questões das bancas (Cebraspe, FGV Conhecimento, Vunesp, FCC, IBFC, Instituto AOCP, RBO) — cadastro de especialistas pagos por questão; procure "banco de elaboradores", "cadastro de colaboradores elaboração de itens".
+- **Inep — Ceres/BNI-ES (elaborador e revisor de itens do Enade):** aceita Engenharia Civil; exige docência no ensino superior nos últimos 24 meses (tutoria EaD não conta). Edital anual: o 186/2025 ficou aberto de 15/12/2025 a 13/02/2026, em http://bni.inep.gov.br/inscricao. Procure o próximo a partir de dezembro (Diário Oficial / portal do Inep). Remoto e compatível com a Marinha.
 - Conteudista/autor EaD: páginas de carreira de Yduqs, Cogna (Sagah), Ânima, Cruzeiro do Sul Virtual, UNIVESP; editais UAB de professor conteudista.
 - Agregadores de vagas remotas no Brasil: remotar.com.br, trampos.co (filtrar engenharia, gestão de projetos, educação).
 
