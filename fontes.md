@@ -31,7 +31,7 @@ Cada entidade publica em portal próprio, geralmente como "Comunicado" ou "Proce
 - Sebrae-SP — https://sebrae.com.br/sp/sobre-nos/trabalhe-conosco/vagas-efetivas-2026 (página em JavaScript: curl volta vazio; use `node sebrae.js`. Cada processo tem status "INSCRIÇÕES ABERTAS/ENCERRADAS"; requisitos no Anexo I do PDF COMUNICADO. Registre no relatório que o Sebrae-SP foi checado, mesmo sem vaga)
 - Sebrae Nacional e demais estaduais — cada um tem seu "Trabalhe Conosco"
 - Senai, Sesi e IEL — portais estaduais (FIESP/SP, FIEMG, FIRJAN etc.)
-- **Sesc-SP** — vagas efetivas CLT em https://www.reachr.com.br/sesc-sp/ (página em JavaScript: renderize com Playwright/Chromium, como no patria.js, e leia o texto; "Nenhuma vaga foi encontrada" = sem vagas). Aviso de novas seleções também em https://www.sescsp.org.br/oportunidades-de-trabalho/.
+- **Sesc-SP** — vagas efetivas CLT em https://www.reachr.com.br/sesc-sp/ (página em JavaScript: use `node sesc.js`; "Nenhuma vaga foi encontrada" = sem vagas). Aviso de novas seleções também em https://www.sescsp.org.br/oportunidades-de-trabalho/.
 - **Senac-SP** — portal de vagas próprio ainda não localizado (sp.senac.br não tem "trabalhe conosco"; "anuncio-de-vagas" é para empresas anunciarem vagas a alunos). Descobrir por WebSearch "Senac São Paulo processo seletivo docente" até achar o portal.
 - Sesi/Senai-SP — todas as vagas (inclusive bancos de talentos de instrutor) em https://sesisenaisp.empregare.com/pt-br/vagas?pagina=1 (2, 3, 4…); o "Trabalhe conosco" de sp.senai.br redireciona para lá. Seleções maiores do Sesi-SP já saíram pelo Cebraspe
 - Senac e Sesc — portais estaduais
