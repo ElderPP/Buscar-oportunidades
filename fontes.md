@@ -93,10 +93,10 @@ Antes de avaliar chance, consulte **atas e resultados de certames anteriores do 
 ### Docência em universidades privadas de SP (toda execução)
 
 1. **Rode `python3 gupy.py`** — lê as páginas Gupy de FMU, Cogna, Yduqs, Cruzeiro do Sul, Ânima, Unicid, PUC-SP, Ibmec, UniFECAF, Ceunsp, Facens e Senac e lista as vagas de docência em SP. Abra cada link novo (fora de `vistas.txt`) e confira requisitos. Se achar outra universidade no Gupy, acrescente o subdomínio em `PAGINAS`.
-2. **Mackenzie** — não usa Gupy. Editais em https://www.mackenzie.br/processos-seletivos/docente (Processo Seletivo Docente Unificado, PSDU, um por semestre; o 2026.2 já foi concluído; o próximo deve sair perto do fim do ano). Inscrição por e-mail à unidade (Escola de Engenharia: engenharia@mackenzie.br). O WebFetch corta a página; use `curl` e procure links de PDF com "Edital".
+2. **Rode `python3 docencia_sp.py`** — lista PDFs novos da página docente do Mackenzie e vagas novas de professor de engenharia no LinkedIn (API pública, Grande SP). **Mackenzie** não usa Gupy: editais em https://www.mackenzie.br/processos-seletivos/docente (Processo Seletivo Docente Unificado, PSDU, um por semestre; o 2026.2 já foi concluído; o do ciclo anterior saiu em 12/12/2025 — IN-RE-131/2025 —, então o 2027.1 deve sair em meados de dezembro de 2026). Inscrição por e-mail à unidade (Escola de Engenharia: engenharia@mackenzie.br). O WebFetch corta a página; use `curl` e procure links de PDF com "Edital".
 3. **UNIP e Uninove** — não usam Gupy nem publicam edital de graduação de forma visível. Busque "UNIP professor engenharia vaga" / "Uninove professor engenharia vaga" no WebSearch e em LinkedIn/Indeed.
-4. **LinkedIn** — bloqueia leitura automática. Use WebSearch com `site:linkedin.com/jobs professor engenharia civil São Paulo` só para descobrir; confirme no site da instituição ou no Gupy. O que não der para abrir vai para "não verificado".
-5. FEI, Mauá, FIAP, Insper, Belas Artes, São Camilo: páginas "trabalhe conosco" próprias — checar quando houver tempo.
+4. **LinkedIn** — coberto pelo `docencia_sp.py` (API pública sem login; se der 429, espere e rode de novo). Abra o detalhe em `/jobs-guest/jobs/api/jobPosting/<id>` antes de reportar.
+5. FEI, Mauá, FIAP, Insper, Belas Artes, São Camilo: páginas "trabalhe conosco" próprias, sem lista de vagas estática (a da FEI não mostra vagas; a da Mauá dá 404; Uninove fora do ar em 27/11/2026). **De novembro a fevereiro (temporada das seleções)**, faça toda segunda um WebSearch "<instituição> processo seletivo docente 2027" para FEI, Mauá, Uninove, UNIP, São Judas/Anhembi e Belas Artes.
 
 ### Trabalho remoto (toda execução)
 
